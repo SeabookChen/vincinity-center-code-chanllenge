@@ -1,0 +1,41 @@
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  padding-right: 1rem;
+}
+.app {
+  padding: 0.5rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.theme-changer {
+  height: 30px;
+  width: 30px;
+  margin: 0 5px;
+}
+.dark {
+  background-color: darkgray;
+}
+.large {
+  font-size: 150%;
+}
+.chart {
+  padding-inline-start: 0;
+}
+.chart-item {
+  display: flex;
+}
+.position {
+  padding-right: 5px;
+}
