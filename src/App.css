@@ -30,12 +30,3 @@ nav li {
 .large {
   font-size: 150%;
 }
-.chart {
-  padding-inline-start: 0;
-}
-.chart-item {
-  display: flex;
-}
-.position {
-  padding-right: 5px;
-}

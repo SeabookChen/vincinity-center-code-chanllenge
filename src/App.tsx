@@ -10,8 +10,8 @@ export default function App() {
     <div className="app">
       <Router>
         <Switch>
-          <Route path="/music">
-            <Music />
+          <Route path="/feed">
+            <Feed />
           </Route>
           <Route path="/">
             <Home />
@@ -45,11 +45,11 @@ const Home = () => {
   )
 }
 
-function Music() {
+function Feed() {
   return (
-    <div className="music">
+    <div className="feed">
       <div className="header">
-        <h1>Music</h1>
+        <h1>Feed</h1>
         <div className="button-container">
           <button id="mode" className="theme-changer">
             <FontAwesomeIcon icon={faSun} color="#FFA500" />
@@ -60,20 +60,8 @@ function Music() {
         </div>
       </div>
       <div>
-        <h2>Playlists</h2>
-        <ul className="chart">
-          <li className="chart-item">
-            <div className="position"></div>
-            <div className="title"></div>
-          </li>
-        </ul>
-        <h2>New Releases</h2>
-        <ul className="chart">
-          <li className="chart-item">
-            <div className="position"></div>
-            <div className="title"></div>
-          </li>
-        </ul>
+        <h2>Posts</h2>
+        <h2>Todos</h2>
       </div>
     </div>
   )
