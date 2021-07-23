@@ -16,7 +16,7 @@ Welcome to the Vicinity Frontend coding challenge.
 
 &nbsp;
 
-# What's Already Been Done 🏁
+# What's Already Been Done
 
 - Basic React app setup with 2 pages
 - Basic app UI
@@ -24,7 +24,7 @@ Welcome to the Vicinity Frontend coding challenge.
 
 &nbsp;
 
-# Goals/Outcomes ✨
+# Goals/Outcomes
 
 - Project architecture and component restructuring
 - Using state and global state - don't install any new packages for this
@@ -34,14 +34,14 @@ Welcome to the Vicinity Frontend coding challenge.
 
 &nbsp;
 
-# Pre-requisites ✅
+# Pre-requisites
 
 - Add your Spotify client ID & secret to `config.js`
   - Note. **Never add this type of config to version control. This would usually come from your build server.**
 
 &nbsp;
 
-# Requirements 📖
+# Requirements
 
 - Add dark mode switching functionality to the _existing_ #mode button
   - Utilise the _existing_ css file by adding a `dark` class to the root `html` element
@@ -55,7 +55,7 @@ Welcome to the Vicinity Frontend coding challenge.
 
 &nbsp;
 
-# Think about 💡
+# Think about
 
 - How we would use Dark mode on other potential routes/components in a bigger application. Would your solution work for this?
 - How we can apply a class to the `html` DOM element
