@@ -10,8 +10,8 @@ Welcome to the Vicinity Frontend coding challenge.
   - Home
   - Feed
 - Provide theme changing functionality
-- Dark and Light mode
-- Standard and Large layout for the visually impaired
+  - Dark and Light mode
+  - Standard and Large layout for the visually impaired
 
 &nbsp;
 
