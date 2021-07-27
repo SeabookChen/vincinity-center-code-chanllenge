@@ -24,9 +24,21 @@ nav li {
   width: 30px;
   margin: 0 5px;
 }
-.dark {
-  background-color: darkgray;
+
+html[data-colortheme="dark"]  {
+  color: rgb(250, 250, 250);
+  background-color: rgb(5, 5, 5);
 }
-.large {
-  font-size: 150%;
+
+html[data-colortheme="light"]  {
+  --color: rgb(5, 5, 5);
+  --background-color: rgb(250, 250, 250);
+}
+
+html[data-layouttheme="normal"]  {
+  font-size: 100%;
+}
+
+html[data-layouttheme="large"]  {
+  font-size: 200%;
 }

@@ -1,3 +1,38 @@
+# What I have been achieved
+- Add dark mode switching functionality to the _existing_ #mode button ✅
+  - Utilise the _existing_ css file by adding a `dark` class to the root `html` element ✅
+- Add large mode switching functionality to the _existing_ #layout button ✅
+  - Utilise the _existing_ css file by adding a `large` class to the root `html` element ✅
+- Fetch and display _posts_ and _todos_ of user _1_ ✅
+  - API docs https://jsonplaceholder.typicode.com/guide/ ✅
+- Feel free to make any additional improvements that showcase your strengths.
+  - Use `data-colortheme` and `data-layouttheme` for better html markup context ✅
+  - Add `User Info` for more completed chanllenge ✅
+  - Implemented router params, user can input `/feed/:userId` to get specific user posts and todos ✅
+  - Seperate the components and services into different folders ✅
+  - Tried my best to apply Typescript types
+
+
+# Think about
+- How we would use Dark mode on other potential routes/components in a bigger application. Would your solution work for this?
+Probably not, complex components may require customized Dark mode, so a good way is to use a global state / redux and apply the state to each component.
+
+- How we can apply a class to the `html` DOM element
+I used the dom manipulation probably is not the best solution.
+
+- Do you resolve each API request one after the other or in parallel?
+I used Promise.all(), which will fire off the requests simultaneously
+
+- Where do you make the API requests?
+I extracted to a API.ts file under `services` folder
+
+- How much logic do you offload out of the UI components?
+I tried my best to offload all the api calls to the `services` folder
+
+
+<hr/>
+
+Chanllenge details as below:
 # Vicinity Frontend Coding Challenge
 
 Welcome to the Vicinity Frontend coding challenge.

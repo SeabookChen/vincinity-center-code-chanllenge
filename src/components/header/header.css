@@ -1,0 +1,28 @@
+
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.links-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.link {
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.button-container {
+  height: 100%;
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
