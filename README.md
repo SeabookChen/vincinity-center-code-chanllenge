@@ -15,18 +15,23 @@
 
 # Think about
 - How we would use Dark mode on other potential routes/components in a bigger application. Would your solution work for this?
+  <br>
 Probably not, complex components may require customized Dark mode, so a good way is to use a global state / redux and apply the state to each component.
 
 - How we can apply a class to the `html` DOM element
+  <br>
 I used the dom manipulation probably is not the best solution.
 
 - Do you resolve each API request one after the other or in parallel?
+  <br>
 I used Promise.all(), which will fire off the requests simultaneously
 
 - Where do you make the API requests?
+  <br>
 I extracted to a API.ts file under `services` folder
 
 - How much logic do you offload out of the UI components?
+  <br>
 I tried my best to offload all the api calls to the `services` folder
 
 
